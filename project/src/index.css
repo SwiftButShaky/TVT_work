@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    padding: 20px;
+  }
+  
+  button {
+    display: none;
+  }
+  
+  input, select {
+    border: none !important;
+    padding: 0 !important;
+  }
+  
+  .shadow-md {
+    box-shadow: none !important;
+  }
+}
